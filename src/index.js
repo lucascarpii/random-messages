@@ -1,4 +1,13 @@
-const messages = ["Oscar", "Ana", "Nicolay", "Yesica", "Diego", "Laura"];
+const messages = [
+  "Lucas",
+  "Santiago",
+  "Juancarlo",
+  "Nora",
+  "Daniel",
+  "Tamnora",
+  "OtroNombre",
+  "Esto es un simple mensaje random",
+];
 
 const randomMsg = () => {
   const message = messages[Math.floor(Math.random() * messages.length)];
