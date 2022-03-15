@@ -12,5 +12,9 @@
     "npm"
   ],
   "author": "Lucas Fuentes <lucascarpii2002@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
